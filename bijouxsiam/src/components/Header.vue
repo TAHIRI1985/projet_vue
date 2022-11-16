@@ -243,8 +243,8 @@
 <script>
 export default {
   name: 'Headers',
-  props: {
-   
+  props: { 
+    id: Number,
     titre:String,
     image:String,
   }
