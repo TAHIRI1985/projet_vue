@@ -3,15 +3,15 @@
       <!--<img alt="Vue logo" src="../assets/logo.png">-->
       
       <LogoBijoux/>
+      <HelloWorld msg="Welcome to Your Vue.js App"/>
       <div class=" divfieldset container-fluid">
             <div   class="row justify-content-center  ">
               
               <Product v-for="(product,index) in products" 
-                  :key="index" :id="product.id"
-                 :description="product.description"   :prix="product.prix"
-                 :image="product.image"  :image2="product.image2" 
-                  :quantity="product.quantity" :count="product.count"/>
-               
+              :key="index" :id="product.id" :description="product.description" 
+                :prix="product.prix"    :image="product.image"  :image2="product.image2"
+                 :quantity="product.quantity" :count="product.count"/>
+             
             </div>
       </div>
       <Livraison />
@@ -22,14 +22,16 @@
   // @ is an alias to /src
  
   import LogoBijoux from '@/components/LogoBijoux.vue'
+  import HelloWorld from '@/components/HelloWorld.vue'
   import Product from '@/components/Product.vue'
   import Livraison from '@/components/Livraison.vue'
   import axios from 'axios'
   
   export default {
-    name: 'Cartes Cadeaux',
+    name:'Cartes Cadeaux',
     components: {
       LogoBijoux,
+      HelloWorld,
       Product,
       Livraison,
     },

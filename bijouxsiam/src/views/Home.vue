@@ -1,9 +1,9 @@
 <template>
   <div class="home">
     <!--<img alt="Vue logo" src="../assets/logo.png">-->
-    <Carousel />
+    <Carousel/>
     <LogoBijoux/>
-    <div class=" divfieldset container-fluid">
+       <div class=" divfieldset container-fluid">
           <div   class="row justify-content-center  ">
             
             <Product v-for="(product,index) in products" 
@@ -13,7 +13,7 @@
                 :quantity="product.quantity" :count="product.count"/>
              
           </div>
-    </div>
+        </div>
     <Livraison />
   </div>
 </template>

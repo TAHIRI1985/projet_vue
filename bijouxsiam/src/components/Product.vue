@@ -11,8 +11,8 @@
 
               <article class="non">
                 
-                <a href="#"> {{description}}</br>
-                    <!-- Q:{{ product.quantity}} {{product.count}}  {{ product.count*product.prix}} -->
+                <a href="#"> {{description}} 
+                   
                   <span class="prix"> Prix: {{prix}}€ </span><br>
                 <span>
                    <button id="voirplus" type="button"  class="btn btn-secondary ">Voir Plus</button>
