@@ -17,7 +17,7 @@
       <video
          controls
          
-         src=" `@/assets/WhatsApp Video 2022-10-30 at 10.49.26.mp4` "
+         src=" .../assets/WhatsApp Video 2022-10-30 at 10.49.26.mp4 "
          autoplay
          loop
          muted
