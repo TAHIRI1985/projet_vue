@@ -89,8 +89,9 @@
                 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
                 <a href="#"><i class="fa-brands fa-youtube"></i></a>
-              <!-- </footera>
-              <form class="d-flex mt-3" role="search">
+               </footera>
+
+              <!-- <form class="d-flex mt-3" role="search">
                 <input
                   class="form-control me-2"
                   type="search"S
@@ -100,7 +101,7 @@
                 <button class="btn btn-outline-success" type="submit">
                   Search
                 </button>
-              </form> -->
+              </form> --> -->
             </div>
           </div>
            <img src="css/images/logo2.png" alt="logo" width="250" height="200" /> 
@@ -121,10 +122,10 @@
           </span>
         </div>
         </div>
-        <div class="container  justify-content-center" class="home" >
-           <p class="item"><router-link class="nav-link" to="/about">Home</router-link> </p> 
-           <p class="item"><router-link class="nav-link" to="/about">Bijoux</router-link> </p>
-           <p class="item"><router-link class="nav-link" to="/about">Cartes Cadeaux</router-link> </p>
+        <div class="   container  justify-content-center"  >
+           <p class="item"><router-link class="nav-link" to="/">Home</router-link> </p> 
+           <p class="item"><router-link class="nav-link" to="/Bijoux">Bijoux</router-link> </p>
+           <p class="item"><router-link class="nav-link" to="/Cartes Cadeaux">Cartes Cadeaux</router-link> </p>
            
         </div>
          
@@ -232,21 +233,22 @@
         </div>
         
          
-        </div>
-        </div>
+        
+      
       </nav>
     </header>
 
 </template>
 
-
 <script>
-
-
-
-
-
-
+export default {
+  name: 'Headers',
+  props: {
+   
+    titre:String,
+    image:String,
+  }
+}
 </script>
 
 

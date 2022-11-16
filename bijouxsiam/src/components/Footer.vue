@@ -53,12 +53,15 @@
       </div>
     </footer>
 </template>
+
 <script>
-
-
-
-
-
-
+export default {
+  name: 'Footers',
+  props: {
+   
+    titre:String,
+    image:String,
+  }
+}
 </script>
 

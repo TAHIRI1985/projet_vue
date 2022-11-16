@@ -20,3 +20,13 @@
 
         </div>   
 </template>
+<script>
+export default {
+  name: 'Livaisons',
+  props: {
+   
+    titre:String,
+    image:String,
+  }
+}
+</script>

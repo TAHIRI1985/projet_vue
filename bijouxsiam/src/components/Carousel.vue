@@ -34,7 +34,7 @@
 
               <div class=" divcarousel carousel-inner">
                 
-                <Slide v-for="(slide,index) in slides" :key="index" :id="slide.id" :titre="slide.titre" :image="slide.image"  />
+                <Salide v-for="(salide,index) in salides" :key="index" :id="salide.id" :titre="salide.titre" :image="salide.image" />
             
 
               </div>
@@ -71,19 +71,19 @@
 
 
 <script>
-import Slide from '@/components/Slide.vue'
+import Salide from '@/components/Salide.vue'
 
 export default {
     name: 'Carousel',
     components: {
-    Slide,
+    Salide,
     },
     props: {
 
     },
     data(){
         return {
-            slides:[
+            salides:[
                 {
                     id:1,
                     titre:'Collier',
