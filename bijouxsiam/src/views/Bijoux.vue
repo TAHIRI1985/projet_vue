@@ -22,7 +22,7 @@
   // @ is an alias to /src
  
   import LogoBijoux from '@/components/LogoBijoux.vue'
-  import HelloWorld from '@/components/HelloWorld.vue'
+  
   import Product from '@/components/Product.vue'
   import Livraison from '@/components/Livraison.vue'
   import axios from 'axios'
@@ -31,7 +31,7 @@
     name:'Cartes Cadeaux',
     components: {
       LogoBijoux,
-      HelloWorld,
+
       Product,
       Livraison,
     },
