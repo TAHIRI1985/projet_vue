@@ -6,8 +6,13 @@
     <div class=" divfieldset container-fluid">
           <div   class="row justify-content-center  ">
             
-            <Product v-for="(product,index) in products" :key="index" :id="product.id" :titre="product.titre" :image="product.image"  />
-        </div>
+            <Product v-for="(product,index) in products" 
+                :key="index" :id="product.id"
+               :description="product.description"   :prix="product.prix"
+               :image="product.image"  :image2="product.image2" 
+                :quantity="product.quantity" :count="product.count"/>
+             
+          </div>
     </div>
     <Livraison />
   </div>
@@ -38,10 +43,10 @@ export default {
   },
   // Fetches Details when the component is created.
   created() {
-    axios.get(`http://localhost:8080/details.json`)
+    axios.get(`http://localhost:8080/products.json`)
     .then(response => {
       // JSON responses are automatically parsed.
-      this.details = response.data.details
+      this.products = response.data.products
     })
     .catch(e => {
       this.errors.push(e)

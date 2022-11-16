@@ -9,8 +9,8 @@
     "products": [
       {
         "id": 1,
-        "image": "css/images/braslete1-removebg-preview.png",
-         "image2": "css/images/braslet-1-removebg-preview.png",
+        "image": "braslete1-removebg-preview.png",
+         "image2": "braslet-1-removebg-preview.png",
         "name": "Bracelet",
         "description": "Trios de Brcelets Dorés Simple",
         "quantity": 15,
@@ -20,8 +20,8 @@
   
       {
         "id": 2,
-        "image": "css/images/b.oreille2.png",
-        "image2":"css/images/b.oreille1.png",
+        "image": "b.oreille2.png",
+        "image2":"b.oreille1.png",
         "name": "B.d'oreille",
         "description": "Boucles d'oreilles originales",
         "quantity": 10,
@@ -30,8 +30,8 @@
       },
       {
         "id": 3,
-        "image": "css/images/collier2.png",
-        "image2":"css/images/collier1.png",
+        "image": "collier2.png",
+        "image2":"collier1.png",
   
         "name": "Collier",
         "description": "Collier Etoile",
@@ -41,8 +41,8 @@
       },
       {
         "id": 4,
-        "image": "css/images/b-removebg-preview.png",
-        "image2":"css/images/baguedor.png",
+        "image": "b-removebg-preview.png",
+        "image2":"baguedor.png",
         "name": "Bague",
         "description": "Bague 'Doria' ",
         "quantity": 15,
@@ -51,8 +51,8 @@
       },
       {
         "id": 5,
-        "image": "css/images/b.cheville2.png",
-        "image2":"css/images/f6.png",
+        "image": "b.cheville2.png",
+        "image2":"f6.png",
         "name": "B.cheville",
         "description": "Bracelet de cheville'Pearly'",
         "quantity": 10,
@@ -62,8 +62,8 @@
   
       {
         "id": 6,
-        "image": "css/images/Montere1-removebg-preview.png",
-        "image2":"css/images/Montere1.png",
+        "image": "Montere1-removebg-preview.png",
+        "image2":"Montere1.png",
         "name": "Montre",
         "description": "MC Femme Montre",
         "quantity": 10,

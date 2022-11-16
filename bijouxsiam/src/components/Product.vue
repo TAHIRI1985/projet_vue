@@ -1,25 +1,25 @@
 <template>
  
-            <fieldset v-for="product in products" class=" col-ms-12 col-md-5 col-lg-3 " >
+            <fieldset  class=" col-ms-12 col-md-5 col-lg-3 " >
              <article class="f1 ">
-              <a href="#"><img id="photo1" :src="`${product.image} `" alt="bijoux" height=""> <img id="photo2" :src="`${product.image2} `" alt="bijoux" height=""> </a>
+              <a href="#"><img id="photo1" :src="require(`@/assets/${image}`)" alt="bijoux" height=""> <img id="photo2" :src="require(`@/assets/${image}`)" alt="bijoux" height=""> </a>
               
              </article >
-                <button v-if="product.quantity>0"     @click=" product.quantity -=1 ; product.count++ ; ajout++ "     class=" ajouter" href="#"   ><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag-plus-fill" viewBox="0 0 16 16">
+                <button v-if="quantity>0"     @click=" quantity -=1 ; count++ ; ajout++ "     class=" ajouter" href="#"   ><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag-plus-fill" viewBox="0 0 16 16">
                <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM8.5 8a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V12a.5.5 0 0 0 1 0v-1.5H10a.5.5 0 0 0 0-1H8.5V8z"/>
              </svg> </button>
 
               <article class="non">
                 
-                <a href="#"> {{product.description}} </br>
+                <a href="#"> {{description}}</br>
                     <!-- Q:{{ product.quantity}} {{product.count}}  {{ product.count*product.prix}} -->
-                  <span class="prix"> Prix: {{product.prix}}€ </span><br>
+                  <span class="prix"> Prix: {{prix}}€ </span><br>
                 <span>
                    <button id="voirplus" type="button"  class="btn btn-secondary ">Voir Plus</button>
                 </span>
                 </a>
                </article>
-               <span v-if="product.quantity === 0">
+               <span v-if="quantity === 0">
                  Rupture de stoc
                 </span>
             </fieldset>
@@ -29,3 +29,15 @@
 
 
 </template>
+
+
+<script>
+export default {
+  name: 'Products',
+  props: {
+    id: Number,
+    titre:String,
+    image:String,
+  }
+}
+</script>
