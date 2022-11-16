@@ -121,7 +121,12 @@
           </span>
         </div>
         </div>
-        <div class="container  justify-content-center" class="home" > <p class="item"> Home</p>  <p class="item"> Bijoux </p>   <p class="item"> Cartes Cadeaux </p>  </div>
+        <div class="container  justify-content-center" class="home" >
+           <p class="item"><router-link class="nav-link" to="/about">Home</router-link> </p> 
+           <p class="item"><router-link class="nav-link" to="/about">Bijoux</router-link> </p>
+           <p class="item"><router-link class="nav-link" to="/about">Cartes Cadeaux</router-link> </p>
+           
+        </div>
          
         <div class="carosel container-fluid ">
           <div class="divcarosel  container-fluid ">
