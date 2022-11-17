@@ -242,7 +242,7 @@
 
 <script>
 export default {
-  name: 'Headers',
+  name: 'Header',
   props: { 
     id: Number,
     titre:String,

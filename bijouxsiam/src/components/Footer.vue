@@ -56,7 +56,7 @@
 
 <script>
 export default {
-  name: 'Footers',
+  name: 'Footer',
   props: {
    
     titre:String,
