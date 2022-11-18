@@ -43,7 +43,7 @@
 
              <div class="col-xs-12 col-ms-12 col-md-4 col-lg-4">
              <span class="bank">
-                <img src="css/images/moyen-paiement-prochasse-paypal_2-removebg-preview.png" alt="carte "  width="200" height="50">
+                <img src="../assets/moyen-paiement-prochasse-paypal_2-removebg-preview.png" alt="carte "  width="200" height="50">
             </span>
             </div><br>
 
@@ -64,4 +64,6 @@ export default {
   }
 }
 </script>
+<style>
 
+</style>

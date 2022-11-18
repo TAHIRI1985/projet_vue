@@ -101,10 +101,10 @@
                 <button class="btn btn-outline-success" type="submit">
                   Search
                 </button>
-              </form> --> -->
+              </form> --> 
             </div>
           </div>
-           <img src="css/images/logo2.png" alt="logo" width="250" height="200" /> 
+           <img src="../assets/logo2.png" alt="logo" width="250" height="200" /> 
           <div  >
           <span>
             <a class="bsearch" href="#"

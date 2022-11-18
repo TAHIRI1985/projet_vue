@@ -87,7 +87,7 @@ export default {
                 {
                     id:1,
                     titre:'Collier',
-                    image:'6.png',
+                    image:'6.jpg',
                 },
                 {
                     id:2,
