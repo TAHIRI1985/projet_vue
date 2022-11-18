@@ -14,7 +14,7 @@
                   </div>
                 </div>
                  
-                <div class="carousel-item" data-bs-interval="2000">
+                <!-- <div class="carousel-item" data-bs-interval="2000">
                   
                   <img
                   :src="require(`@/assets/${image}`)"                                       
@@ -41,7 +41,7 @@
                     <h5 > <a href="#"><B>{{titre}}</B></a> </h5>
                   </div>
                   
-                </div>
+                </div> -->
 </template>
 
 <script>

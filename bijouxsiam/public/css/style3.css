@@ -48,6 +48,23 @@ fieldset {
   .non a:hover {
     color: gray;
   }
+  article img {
+    border-radius: 10px;
+  }
+  article {
+    align-items: center;
+  }
+  .divfieldset {
+    padding: 20px;
+  }
+  
+  .ajouter {
+    color: gray;
+  }
+  .ajouter :hover {
+    color: gray;
+  }
+  
   
   /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
   footer {

@@ -1,5 +1,5 @@
 <template>
-    <div class="Cartes Cadeaux">
+    <div class="Bijouxvue">
       <!--<img alt="Vue logo" src="../assets/logo.png">-->
       
       <LogoBijoux/>
@@ -55,3 +55,5 @@
     }  
   }
   </script>
+<style src="../../public/css/style3.css">
+</style>
