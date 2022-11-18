@@ -9,7 +9,7 @@
               data-bs-ride="carousel"
               
             >
-              <div class="carousel-indicators">
+              <div cnpmlass="carousel-indicators">
                 <button
                   type="button"
                   data-bs-target="#carouselExampleDark"
