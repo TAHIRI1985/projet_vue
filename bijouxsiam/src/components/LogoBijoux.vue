@@ -16,7 +16,7 @@
        <div class=" col-mx-12 col-ms-12 col-md-4 col-lg-4">
       <video
          controls
-         src="src/assets/WhatsApp Video 2022-10-30 at 10.49.26.mp4"
+         src="assets/Video 2022-10-30 at 10.49..mp4"
          autoplay
          loop
          muted
