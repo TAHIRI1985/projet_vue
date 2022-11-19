@@ -104,3 +104,26 @@ export default {
     },
 }
 </script>
+<style>
+.imgcarosel {
+  border-radius: 40px;
+  width: auto;
+  height: auto;
+}
+.divcarosel h5 a {
+  background-color: #000;
+  text-decoration: none;
+  color: #cfa340;
+  border-radius: 200px;
+  padding: 10px 20px;
+}
+.divcarosel h5 a:hover {
+  color: #cfa340;
+}
+h5 a:hover {
+  color: #000;
+}
+.divcarousel {
+  border-radius: 40px;
+}
+</style>

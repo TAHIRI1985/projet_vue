@@ -151,5 +151,14 @@ export default {
 </script>
 
 
+<style>
+.divmenu {
+  background-color: #e7d4cf;
 
+  text-align: start;
+  margin: 10px 0px 0px 20px;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0px 0px 40px gray;
+}
+</style>
 

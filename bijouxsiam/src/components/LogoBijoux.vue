@@ -77,4 +77,45 @@ export default {
 }
 </script>
 
-<style src="../../public/css/style.css"></style>
+<style >
+.logo-bijoux {
+  color: #cfa340;
+  height: auto;
+  /* padding-left: 30px;
+  padding-right: 30px; */
+  background-color: #513e35;
+  margin: 0px 20px 0px 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px gray;
+}
+.logobar {
+  /* position: sticky; */
+
+  top: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo-bijoux {
+  color: #cfa340;
+  height: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #513e35;
+  margin: 10px 20px 0px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px gray;
+}
+.logo-bijoux a {
+  text-decoration: none;
+  color: #cfa340;
+}
+video {
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px gray;
+  width: 310px;
+  height: 310px;
+  padding: 5px;
+  margin: 10px;
+}
+</style>

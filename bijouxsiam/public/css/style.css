@@ -10,6 +10,19 @@ body {
   font-family: "Times New Roman", Times, serif;
   color: black;
 }
+#notification {
+  z-index: 2;
+  background-color: #cfa340;
+  font-size: 0.75rem;
+  color: #fff;
+  text-align: center;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  position: absolute;
+  margin-top: -2px;
+  margin-left: -13px;
+}
 
 header {
   height: auto;
@@ -35,23 +48,6 @@ header {
   border-radius: 10px;
   box-shadow: 0px 0px 40px gray;
   height: auto;
-}
-.logo-bijoux {
-  color: #cfa340;
-  height: auto;
-  /* padding-left: 30px;
-  padding-right: 30px; */
-  background-color: #513e35;
-  margin: 0px 20px 0px 10px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 40px gray;
-}
-.logobar {
-  /* position: sticky; */
-
-  top: 0px;
-  margin: 0px;
-  padding: 0px;
 }
 
 .connecte {
@@ -85,14 +81,7 @@ span a:hover {
   color: black;
 }
 
-.divmenu {
-  background-color: #e7d4cf;
 
-  text-align: start;
-  margin: 10px 0px 0px 20px;
-  border-radius: 10px 10px 0px 0px;
-  box-shadow: 0px 0px 40px gray;
-}
 
 .sc a {
   color: black;
@@ -104,14 +93,7 @@ span a:hover {
   width: 15px;
   background-color: #e7d4cf;
 }
-video {
-  border-radius: 10px;
-  box-shadow: 0px 0px 40px gray;
-  width: 310px;
-  height: 310px;
-  padding: 5px;
-  margin: 10px;
-}
+
 .bar {
   margin: 10px 50px;
   text-decoration: none;
@@ -121,56 +103,9 @@ video {
   color: #000;
   font-size: 1rem;
 }
-.imgcarosel {
-  border-radius: 40px;
-  width: auto;
-  height: auto;
-}
-.divcarosel h5 a {
-  background-color: #000;
-  text-decoration: none;
-  color: #cfa340;
-  border-radius: 200px;
-  padding: 10px 20px;
-}
-.divcarosel h5 a:hover {
-  color: #cfa340;
-}
-h5 a:hover {
-  color: #000;
-}
-.divcarousel {
-  border-radius: 40px;
-}
-.logo-bijoux {
-  color: #cfa340;
-  height: auto;
-  padding-left: 30px;
-  padding-right: 30px;
-  background-color: #513e35;
-  margin: 10px 20px 0px 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 40px gray;
-}
-.logo-bijoux a {
-  text-decoration: none;
-  color: #cfa340;
-}
-.livraison {
-  font-size: medium;
-  color: #e6782f;
-  font-style: oblique;
-  margin: 80px 10px 80px 10px;
-}
-.livrai {
-  padding-top: 15px;
-}
-.paiement {
-  padding-top: 15px;
-}
-.Échanges {
-  padding-top: 15px;
-}
+
+
+
 .coeur {
   font-style: oblique;
   font-size: 1.2;
