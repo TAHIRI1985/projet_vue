@@ -115,9 +115,9 @@
             <a class="bpanier" href="#"
               ><i class="fa-solid fa-bag-shopping"></i
             > 
-              <!-- <span id="notification">{{ajout}}</span>  -->
+              <!-- <span id="notification">{{ajout}}</span>   -->
               
-             <!-- <span id="prixtotal">{{ totalPrix.toFixed(2) }} €</span>  -->
+              <!-- <span id="prixtotal">{{ totalPrix.toFixed(2) }} €</span>  -->
               
               </a>
           </span>

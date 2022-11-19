@@ -139,6 +139,7 @@ h5 a:hover {
 }
 .divcarousel {
   border-radius: 40px;
+  
 }
 .logo-bijoux {
   color: #cfa340;
@@ -183,6 +184,8 @@ h5 a:hover {
   font-size: 1rem;
 }
 /* ............... page 2 css.......... */
+
+
 fieldset {
   color: #000;
   background-color: #fff;
@@ -190,6 +193,8 @@ fieldset {
   border-radius: 10px;
   box-shadow: 0px 0px 40px gray;
 }
+
+
 button {
   border: 0px;
   background-color: #fff;
