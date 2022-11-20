@@ -1,7 +1,8 @@
  
 <template>
     <div class="Bijouxvue">
-
+  
+      
       <LogoBijoux/>
      
       <div class=" divfieldset container-fluid">

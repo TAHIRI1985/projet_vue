@@ -51,7 +51,7 @@ export default {
 fieldset {
   color: #000;
   background-color: #fff;
-  margin: 50px 50px;
+  margin: 50px ;
   border-radius: 10px;
   box-shadow: 0px 0px 40px gray;
 }

@@ -124,7 +124,7 @@
         </div>
         </div>
        <div class="   container  justify-content-center"  >
-           <p class="item"><router-link class="nav-link" to="/">Home</router-link> </p> 
+           <p class="item"><router-link class="nav-link" to="/">Accueil</router-link> </p> 
            <p class="item"><router-link class="nav-link" to="/Bijoux">Bijoux</router-link> </p>
            <p class="item"><router-link class="nav-link" to="/Cartes Cadeaux">Cartes Cadeaux</router-link> </p>
            
