@@ -1,9 +1,9 @@
+ 
 <template>
     <div class="Bijouxvue">
-      <!--<img alt="Vue logo" src="../assets/logo.png">-->
-      
+
       <LogoBijoux/>
-      <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+     
       <div class=" divfieldset container-fluid">
             <div   class="row justify-content-center  ">
               

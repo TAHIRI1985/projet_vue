@@ -30,3 +30,21 @@ export default {
   }
 }
 </script>
+<style>
+.livraison {
+  font-size: medium;
+  color: #e6782f;
+  font-style: oblique;
+  margin: 80px 10px 80px 10px;
+}
+.livrai {
+  padding-top: 15px;
+}
+.paiement {
+  padding-top: 15px;
+}
+.Échanges {
+  padding-top: 15px;
+}
+
+</style>

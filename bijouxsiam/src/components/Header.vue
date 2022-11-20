@@ -123,14 +123,13 @@
           </span>
         </div>
         </div>
-        <div class="   container  justify-content-center"  >
+       <div class="   container  justify-content-center"  >
            <p class="item"><router-link class="nav-link" to="/">Home</router-link> </p> 
            <p class="item"><router-link class="nav-link" to="/Bijoux">Bijoux</router-link> </p>
            <p class="item"><router-link class="nav-link" to="/Cartes Cadeaux">Cartes Cadeaux</router-link> </p>
            
         </div>
          
-        
          
         
       
@@ -151,6 +150,95 @@ export default {
 </script>
 
 
+<style>
+header {
+  height: auto;
+}
+.navbar {
+  background-color: #e7d4cf;
+  margin: 10px 20px 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px gray;
+  height: auto;
+}
+.conn li {
+  list-style: none;
+}
+.connecte {
+  color: black;
+  text-decoration: none;
+}
+.sc a {
+  color: black;
+  padding: 3px;
+}
+.sc {
+  margin-left: 100px;
+}
+.bsearch {
+  margin: 0px 5px;
+  font-size: 1.5rem;
+  color: gray;
+}
+span a {
+  text-decoration: none;
+}
+span a:hover {
+  color: grey;
+}
 
+.bpanier {
+  margin: 0px 5px;
+  font-size: 1.5rem;
+  color: gray;
+}
+
+.bmenu {
+  color: black;
+}
+
+.divmenu {
+  background-color: #e7d4cf;
+
+  text-align: start;
+  margin: 10px 0px 0px 20px;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0px 0px 40px gray;
+}
+.item {
+  margin: 0px 20px 0px 20px;
+  font-weight: bold;
+  color: gray;
+}
+.bBijoux {
+  width: 15px;
+  background-color: #e7d4cf;
+}
+.bpanier span {
+  color: #000;
+  font-size: 1rem;
+}
+#prixtotal {
+  margin-left: 2px;
+  color: gray;
+  font-size: 1rem;
+}
+#notification {
+  z-index: 2;
+  background-color: #cfa340;
+  font-size: 0.75rem;
+  color: #fff;
+  text-align: center;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  position: absolute;
+  margin-top: -2px;
+  margin-left: -13px;
+}
+
+
+
+</style>
 
 

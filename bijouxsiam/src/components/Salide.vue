@@ -54,3 +54,11 @@ export default {
   }
 }
 </script>
+<style>
+.imgcarosel {
+  border-radius: 40px;
+  width: auto;
+  height: auto;
+}
+
+</style>
