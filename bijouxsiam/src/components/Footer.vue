@@ -74,6 +74,8 @@ footer {
   padding: 50px;
   border-radius: 10px;
   box-shadow: 0px 0px 40px grey;
+  font-family: "Times New Roman", Times, serif;
+  text-align:center ;
 }
 .newsletter {
   padding: 50px 0;

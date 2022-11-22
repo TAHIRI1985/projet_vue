@@ -5,16 +5,16 @@
           <div class="livraison row">
           <span class="col">
             <img src="@/assets/livraison.png" alt="Livraison" >
-            <p class="livrai">Livraison partout en France</p>
+            <p id="livrai">Livraison partout en France</p>
           </span>
 
           <span class="col">
              <img src="@/assets/sécurité.png" alt="Paiment">
-             <p class="paiement"> Paiement sécurisé 100%</p>
+             <p id="paiement"> Paiement sécurisé 100%</p>
           </span>
           <span class="col">
             <img src="@/assets/synchroniser.png" alt="Echanges">
-            <p class="Échanges">Échanges et remboursements</p>
+            <p id="Échanges">Échanges et remboursements</p>
          </span>
         </div>
 
@@ -30,20 +30,23 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped>
 .livraison {
   font-size: medium;
   color: #e6782f;
   font-style: oblique;
   margin: 80px 10px 80px 10px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  
 }
-.livrai {
+.livraison #livrai {
   padding-top: 15px;
 }
-.paiement {
+.livraison #paiement {
   padding-top: 15px;
 }
-.Échanges {
+.livraison #Échanges {
   padding-top: 15px;
 }
 

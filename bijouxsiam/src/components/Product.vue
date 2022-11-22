@@ -1,6 +1,6 @@
 <template>
  
-            <fieldset  class=" col-ms-12 col-md-5 col-lg-3 " >
+            <fieldset  class=" col-ms-12 col-md-5 col-lg-3  fieldset" >
              <article class="f1"> 
               
               <a href="#"><img id="photo1" :src="require(`@/assets/${image}`)" alt="bijoux" height="">  </a>
@@ -17,6 +17,7 @@
                   <span>
                    {{description}}
                   </span>
+                  <br>
                   <span class="prix"> Prix: {{prix}}€ </span><br>
                 <span>
                    <button id="voirplus" type="button"  class="btn btn-secondary ">Voir Plus</button>
@@ -52,13 +53,15 @@ export default {
 </script>
 <style scoped>
 
-
-fieldset {
+.fieldset {
   color: #000;
   background-color: #fff;
   margin: 50px ;
   border-radius: 10px;
   box-shadow: 0px 0px 40px gray;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+
 }
 .f1 {
   background-size: 100% 100%;

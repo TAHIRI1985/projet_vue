@@ -1,5 +1,5 @@
 <template>
- <header>
+ <header class="header">
       <!-- place navbar here -->
       <nav class="navbar ">
         <div class=" topnavbar container-fluid">
@@ -156,9 +156,10 @@ export default {
 </script>
 
 
-<style>
-header {
+<style scoped>
+.header {
   height: auto;
+  font-family: "Times New Roman", Times, serif;
 }
 .navbar {
   background-color: #e7d4cf;

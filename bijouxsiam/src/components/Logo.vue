@@ -1,9 +1,10 @@
 <template>
-     <div class="col">
+     <div class="col ">
         <a href="#">
             <img :src="require(`@/assets/${image}`)" width="50" height="50"><br>
-                 
-                  {{titre}}
+           
+            {{titre}}
+              
         </a>
      </div>
 </template>
@@ -25,4 +26,7 @@ export default {
   justify-content: center;
 
 }
+.col a:hover{
+  color:#cfa340 ;
+} 
 </style>

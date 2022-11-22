@@ -68,4 +68,9 @@ export default {
  
 }
 </script>
+<style>
+ .home{
+  font-family: "Times New Roman", Times, serif;
+ }
+</style>
 

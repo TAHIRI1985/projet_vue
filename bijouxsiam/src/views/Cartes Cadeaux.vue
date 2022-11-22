@@ -80,7 +80,7 @@ export default {
     },
 }
 </script>
-<style>
+<style scoped>
 .cadeaux{
     z-index: 2;
    margin-top: 160px;

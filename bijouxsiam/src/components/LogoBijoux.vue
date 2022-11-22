@@ -1,6 +1,6 @@
 <template>
    <div id="getFixed"  class=" logobar container-fluid  ">
-        <div class="row logo-bijoux  ">
+        <div class="row   logo-bijoux  ">
            
           <Logo v-for="(logo,index) in logos" :key="index" :id="logo.id" :titre="logo.titre" :image="logo.image" />
 
@@ -15,7 +15,7 @@
        </div>
        <div class=" col-mx-12 col-ms-12 col-md-4 col-lg-4">
                 
-      <video
+      <video class="video"
          controls
          src="@/assets/vidéo1.mp4"
          autoplay
@@ -87,6 +87,9 @@ export default {
   font-style: oblique;
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  
 }
 
 
@@ -98,7 +101,7 @@ export default {
   margin: 0px;
   padding: 0px;
 }
-video {
+.video {
   border-radius: 10px;
   box-shadow: 0px 0px 40px gray;
   width: 310px;
@@ -115,6 +118,8 @@ video {
   margin: 10px 20px 0px 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 40px gray;
+
+ font-family: "Times New Roman", Times, serif;
 }
 .logo-bijoux a {
   text-decoration: none;
@@ -127,7 +132,18 @@ video {
   margin: 0px;
   color: gray;
   /* text-shadow: gray 0px 0px 2px;*/
+  font-family: "Times New Roman", Times, serif;
 }
+.logo-bijoux a {
+  text-decoration: none;
+  color: #cfa340;
+}
+.logo-bijoux a {
+  text-decoration: none;
+  color: #cfa340;
+}
+
+
 
 
 
