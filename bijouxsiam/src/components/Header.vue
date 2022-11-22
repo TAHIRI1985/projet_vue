@@ -248,7 +248,10 @@ export default {
     titre:String,
     image:String,
   }
+  
+  
 }
+
 </script>
 
 

@@ -57,7 +57,7 @@ export default {
     },
   },
   // Fetches Details when the component is created.
-  created() {
+  mounted() {
     axios.get(`http://localhost:8080/products.json`)
     .then(response => {
       // JSON responses are automatically parsed.
