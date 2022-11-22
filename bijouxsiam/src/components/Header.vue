@@ -115,10 +115,10 @@
             <a class="bpanier" href="#"
               ><i class="fa-solid fa-bag-shopping"></i
             > 
-              <!-- <span id="notification">{{ajout}}</span>   -->
+              <span id="notification">{{ajout}}</span>  
               
-              <!-- <span id="prixtotal">{{ totalPrix.toFixed(2) }} €</span>  -->
-              
+              <span id="prixtotal">{{ totalPrix }} €</span> 
+              <!-- .toFixed(2) -->
               </a>
           </span>
         </div>
@@ -146,6 +146,8 @@ export default {
     titre:String,
     image:String,
     ajout:Number,
+    totalPrix:Number,
+
   }
   
   

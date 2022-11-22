@@ -34,15 +34,13 @@ export default {
     Product,
     Livraison,
   },
-  
-  data(){
-        return {
-            products:[],
-            errors: [],
-            ajout:0
-        }
-  },
- computed: {
+   data(){
+          return {
+              products:[],
+              errors: []
+          }
+    },
+    computed: {
     totalProducts() {
       return this.products.reduce((sum, product) => {
         // sum += product.quantity
@@ -56,17 +54,18 @@ export default {
       }, 0);
     },
   },
-  // Fetches Details when the component is created.
-  mounted() {
-    axios.get(`http://localhost:8080/products.json`)
-    .then(response => {
-      // JSON responses are automatically parsed.
-      this.products = response.data.products
-    })
-    .catch(e => {
-      this.errors.push(e)
-    })
-  }  
+    // Fetches Details when the component is created.
+    created() {
+      axios.get(`http://localhost:8080/products.json`)
+      .then(response => {
+        // JSON responses are automatically parsed.
+        this.products = response.data.products
+      })
+      .catch(e => {
+        this.errors.push(e)
+      })
+    }  
+ 
 }
 </script>
 

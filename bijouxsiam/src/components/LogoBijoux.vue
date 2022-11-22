@@ -14,14 +14,14 @@
          <p  id ="coeur"  class="coeur">Nos sélections coup de coeur </p>
        </div>
        <div class=" col-mx-12 col-ms-12 col-md-4 col-lg-4">
-        
+                
       <video
          controls
-         url="@/assets/WhatsApp Video 2022-10-30 at 10.49..mp4"
+         src="@/assets/vidéo1.mp4"
          autoplay
          loop
-         muted
-         >
+         muted>
+         
       </video>
      
     </div>
@@ -78,7 +78,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .gratuite {
   margin-left: 20px;
   margin-right: 20px;

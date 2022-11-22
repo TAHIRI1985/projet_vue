@@ -17,3 +17,12 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.col a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+</style>
