@@ -145,6 +145,7 @@ export default {
     id: Number,
     titre:String,
     image:String,
+    ajout:Number,
   }
   
   

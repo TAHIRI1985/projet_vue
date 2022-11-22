@@ -42,6 +42,11 @@ export default {
     id: Number,
     titre:String,
     image:String,
+    prix:Number,
+    quantity:Number,
+    description:Number,
+    count:Number,
+
   }
 }
 </script>
