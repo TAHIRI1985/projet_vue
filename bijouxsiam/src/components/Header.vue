@@ -101,10 +101,10 @@
                 <button class="btn btn-outline-success" type="submit">
                   Search
                 </button>
-              </form> --> -->
+              </form> --> 
             </div>
           </div>
-           <img src="css/images/logo2.png" alt="logo" width="250" height="200" /> 
+           <img src="../assets/logo2.png" alt="logo" width="250" height="200" /> 
           <div  >
           <span>
             <a class="bsearch" href="#"
@@ -114,124 +114,22 @@
            <span>
             <a class="bpanier" href="#"
               ><i class="fa-solid fa-bag-shopping"></i
-            >   <span id="notification">{{ajout}}</span> 
+            > 
+              <!-- <span id="notification">{{ajout}}</span>   -->
               
-             <span id="prixtotal">{{ totalPrix.toFixed(2) }} €</span> 
+              <!-- <span id="prixtotal">{{ totalPrix.toFixed(2) }} €</span>  -->
               
               </a>
           </span>
         </div>
         </div>
-        <div class="   container  justify-content-center"  >
-           <p class="item"><router-link class="nav-link" to="/">Home</router-link> </p> 
+       <div class="   container  justify-content-center"  >
+           <p class="item"><router-link class="nav-link" to="/">Accueil</router-link> </p> 
            <p class="item"><router-link class="nav-link" to="/Bijoux">Bijoux</router-link> </p>
            <p class="item"><router-link class="nav-link" to="/Cartes Cadeaux">Cartes Cadeaux</router-link> </p>
            
         </div>
          
-        <div class="carosel container-fluid ">
-          <div class="divcarosel  container-fluid ">
-            <div
-              id="carouselExampleDark"
-              class="carousel carousel-dark slide "
-              data-bs-ride="carousel"
-              
-            >
-              <div class="carousel-indicators">
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleDark"
-                  data-bs-slide-to="0"
-                  class="active"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleDark"
-                  data-bs-slide-to="1"
-                  aria-label="Slide 2"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleDark"
-                  data-bs-slide-to="2"
-                  aria-label="Slide 3"
-                ></button>
-              </div>
-              <div class=" divcarousel carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                  <img
-                    src="css/images/2+.png"
-                    class="d-block w-100 imgcarosel"
-                    alt="colier"
-                    width=""
-                    height="500"
-                  />
-                  <div class="carousel-caption d-none d-md-block    ">
-                    
-                       <h5> <a href="#"><b>Collier</b></a> </h5>
-                      
-                  </div>
-                </div>
-                 
-                <div class="carousel-item" data-bs-interval="2000">
-                  
-                  <img
-                    src="css/images/6.jpg"
-                    class="d-block w-100 imgcarosel"
-                    alt="b.orielle"
-                    width=""
-                    height="500"
-                  />
-                  <div class="carousel-caption d-none d-md-block">
-                  
-                    <h5> <a href="#"><b>B.d'orielle</b></a> </h5>
-                    
-                  </div>
-                </div>
-                <div class="carousel-item ">
-                  <img
-                    src="css/images/7.jpg"
-                    class="d-block w-100 imgcarosel"
-                    alt="bague"
-                    width=""
-                    height="500"
-                  />
-                  <div class="carousel-caption d-none d-md-block  ">
-                    <h5 > <a href="#"><B>Bague</B></a> </h5>
-                    
-                  </div>
-                </div>
-              </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleDark"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleDark"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-        </div>
-        
          
         
       
@@ -255,12 +153,95 @@ export default {
 </script>
 
 
-
-
 <style>
+header {
+  height: auto;
+}
+.navbar {
+  background-color: #e7d4cf;
+  margin: 10px 20px 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px gray;
+  height: auto;
+}
+.conn li {
+  list-style: none;
+}
+.connecte {
+  color: black;
+  text-decoration: none;
+}
+.sc a {
+  color: black;
+  padding: 3px;
+}
+.sc {
+  margin-left: 100px;
+}
+.bsearch {
+  margin: 0px 5px;
+  font-size: 1.5rem;
+  color: gray;
+}
+span a {
+  text-decoration: none;
+}
+span a:hover {
+  color: grey;
+}
 
+.bpanier {
+  margin: 0px 5px;
+  font-size: 1.5rem;
+  color: gray;
+}
 
+.bmenu {
+  color: black;
+}
+
+.divmenu {
+  background-color: #e7d4cf;
+
+  text-align: start;
+  margin: 10px 0px 0px 20px;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0px 0px 40px gray;
+}
+.item {
+  margin: 0px 20px 0px 20px;
+  font-weight: bold;
+  color: gray;
+}
+.bBijoux {
+  width: 15px;
+  background-color: #e7d4cf;
+}
+.bpanier span {
+  color: #000;
+  font-size: 1rem;
+}
+#prixtotal {
+  margin-left: 2px;
+  color: gray;
+  font-size: 1rem;
+}
+#notification {
+  z-index: 2;
+  background-color: #cfa340;
+  font-size: 0.75rem;
+  color: #fff;
+  text-align: center;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  position: absolute;
+  margin-top: -2px;
+  margin-left: -13px;
+}
 
 
 
 </style>
+
+

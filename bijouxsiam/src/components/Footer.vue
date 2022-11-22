@@ -1,6 +1,6 @@
 <template>
-    <footer>
-<section class="newsletter">
+<footer>
+   <section class="newsletter">
         <div class="container">
         <div class="row">
         <div class="col-sm-12">
@@ -19,7 +19,7 @@
         </div>
         </section>
       <div class="container-fluid">
-       <div class=" condition container">
+       <div class="  container condition  ">
         <div class=" foot row align-self-center  ">
         
        <div id="recherche" class="col-xs-12 col-ms-12 col-md-5 col-lg-5"> <a href="#">Recherche</a></div><br>
@@ -43,7 +43,7 @@
 
              <div class="col-xs-12 col-ms-12 col-md-4 col-lg-4">
              <span class="bank">
-                <img src="css/images/moyen-paiement-prochasse-paypal_2-removebg-preview.png" alt="carte "  width="200" height="50">
+                <img src="../assets/moyen-paiement-prochasse-paypal_2-removebg-preview.png" alt="carte "  width="200" height="50">
             </span>
             </div><br>
 
@@ -52,6 +52,7 @@
       </div>
       </div>
     </footer>
+
 </template>
 
 <script>
@@ -64,4 +65,64 @@ export default {
   }
 }
 </script>
+<style>
+footer {
+  background-color: #fff;
+  color: gray;
+  height: auto;
+  margin: 0px 20px 20px 20px;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px grey;
+}
+.newsletter {
+  padding: 50px 0;
+}
 
+.newsletter .content {
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+.newsletter .content h2 {
+  color: gray;
+  margin-bottom: 20px;
+}
+.newsletter .content .form-control {
+  height: 50px;
+  font-size: 12px;
+
+  background-color: rgba(128, 128, 128, 0.548);
+  border-radius: 5px;
+}
+.newsletter .content.form-control:focus {
+  box-shadow: none;
+  border: 2px solid gray;
+}
+.newsletter .content .btn {
+  min-height: 50px;
+  border-radius: 5px;
+  background: #000;
+  color: #fff;
+  font-weight: 600;
+}
+.condition a {
+  color: gray;
+  text-decoration: none;
+}
+.condition {
+  height: 200px;
+}
+.foot {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.sociale a {
+  padding: 3px;
+
+}
+
+
+</style>

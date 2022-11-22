@@ -42,7 +42,7 @@ export default {
             ajout:0
         }
   },
-  computed: {
+ computed: {
     totalProducts() {
       return this.products.reduce((sum, product) => {
         // sum += product.quantity
@@ -69,3 +69,4 @@ export default {
   }  
 }
 </script>
+

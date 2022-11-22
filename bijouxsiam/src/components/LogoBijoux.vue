@@ -1,6 +1,6 @@
 <template>
    <div id="getFixed"  class=" logobar container-fluid  ">
-        <div class="row logo-bijoux">
+        <div class="row logo-bijoux  ">
            
           <Logo v-for="(logo,index) in logos" :key="index" :id="logo.id" :titre="logo.titre" :image="logo.image" />
 
@@ -14,10 +14,10 @@
          <p  id ="coeur"  class="coeur">Nos sélections coup de coeur </p>
        </div>
        <div class=" col-mx-12 col-ms-12 col-md-4 col-lg-4">
+        
       <video
          controls
-         
-         src=" .../assets/WhatsApp Video 2022-10-30 at 10.49.26.mp4 "
+         url="@/assets/WhatsApp Video 2022-10-30 at 10.49..mp4"
          autoplay
          loop
          muted
@@ -77,3 +77,59 @@ export default {
   },
 }
 </script>
+
+<style>
+.gratuite {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 1rem;
+  /* color: #e6782f; */
+  font-style: oblique;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+.logobar {
+  /* position: sticky; */
+
+  top: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+video {
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px gray;
+  width: 310px;
+  height: 310px;
+  padding: 5px;
+  margin: 10px;
+}
+.logo-bijoux {
+  color: #cfa340;
+  height: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #513e35;
+  margin: 10px 20px 0px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px gray;
+}
+.logo-bijoux a {
+  text-decoration: none;
+  color: #cfa340;
+}
+.coeur {
+  font-style: oblique;
+  font-size: 1.2;
+  /* font-weight: bold; */
+  margin: 0px;
+  color: gray;
+  /* text-shadow: gray 0px 0px 2px;*/
+}
+
+
+
+
+</style>

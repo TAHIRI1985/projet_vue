@@ -9,7 +9,7 @@
               data-bs-ride="carousel"
               
             >
-              <div class="carousel-indicators">
+              <div cnpmlass="carousel-indicators">
                 <button
                   type="button"
                   data-bs-target="#carouselExampleDark"
@@ -87,7 +87,7 @@ export default {
                 {
                     id:1,
                     titre:'Collier',
-                    image:'6.png',
+                    image:'6.jpg',
                 },
                 {
                     id:2,
@@ -104,3 +104,22 @@ export default {
     },
 }
 </script>
+<style>
+.divcarosel h5 a {
+  background-color: #000;
+  text-decoration: none;
+  color: #cfa340;
+  border-radius: 200px;
+  padding: 10px 20px;
+}
+.divcarosel h5 a:hover {
+  color: #cfa340;
+}
+h5 a:hover {
+  color: #000;
+}
+.divcarousel {
+  border-radius: 40px;
+  
+}
+</style>

@@ -1,9 +1,10 @@
+ 
 <template>
-    <div class="Cartes Cadeaux">
-      <!--<img alt="Vue logo" src="../assets/logo.png">-->
+    <div class="Bijouxvue">
+  
       
       <LogoBijoux/>
-      <HelloWorld msg="Welcome to Your Vue.js App"/>
+     
       <div class=" divfieldset container-fluid">
             <div   class="row justify-content-center  ">
               
@@ -42,6 +43,20 @@
               errors: []
           }
     },
+    computed: {
+    totalProducts() {
+      return this.products.reduce((sum, product) => {
+        // sum += product.quantity
+        // return sum
+        return sum + product.quantity;
+      }, 0);
+    },
+    totalPrix() {
+      return this.products.reduce((total, product) => {
+        return total + product.count * product.prix;
+      }, 0);
+    },
+  },
     // Fetches Details when the component is created.
     created() {
       axios.get(`http://localhost:8080/products.json`)
